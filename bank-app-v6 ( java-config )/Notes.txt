@@ -1,0 +1,67 @@
+
+//---------------------------
+OO concepts
+//---------------------------
+	
+	Abstraction
+	Encapsulation
+	Inheritance
+	Polymorphism
+
+//-----------------------------
+OO principles a.k.a SOLID principles
+//-----------------------------
+
+
+S — Single responsibility principle
+O — Open closed principle
+L — Liskov substitution principle
+I — Interface segregation principle
+D — Dependency Inversion principle
+
+//-----------------------------
+OO patterns
+//-----------------------------
+
+	creational
+	
+		- factory-design-pattern
+		
+	behavioral
+	structural
+
+
+
+
+
+
+
+
+
+//-----------------------------
+// use-case : bank-Txr
+//-----------------------------
+
+
+// step-1 : model
+
+
+	-> Account
+	-> Txn
+	- Customer
+	..
+	
+	
+step-2 : layer(s)
+
+	A. data/repository layer  ==> persisting logic	
+	
+		-> AccountRepository
+		-> TxnRepository
+		..
+	
+	B. business/service layer ==> processing logic	
+		
+		-> 
+	
+	C. web layer              ==> request/response logic 
